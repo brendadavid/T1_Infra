@@ -9,7 +9,7 @@ RUN apt-get install -y \
  && rm -rf /var/lib/apt/lists/*
 
 # Copia o arquivo html
-COPY ./Olimpiadas.html /var/www/T1_Infra
+COPY ./Olimpiadas.html /var/www/html/
  
 # Expõe a porta do apache
 EXPOSE 80
